@@ -11,6 +11,6 @@ int main()
     for(i=1; i<numero; i++){
     resultat=resultat*i;
     }
-    printf("\n\nle calcul factorial de %i est %i\n\n", numero, resultat);
+    printf("\n\nle calcul factorial de %i est %i\n\n", numero,resultat);
     return 0;
 }
