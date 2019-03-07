@@ -3,15 +3,13 @@
 
 int factorial (int numero){
 
-    int resultat;
 
     if (numero==1){
         return 1;
     }
-    else{
-      resultat=numero*factorial(numero-1);
-      return resultat;
-    }
+
+      printf("\n%i", numero);
+      return (numero*factorial(numero-1));
 
 
 }
