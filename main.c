@@ -3,15 +3,17 @@
 
 int factorial (int numero){
 
-    int i, resultat;
+    int resultat;
 
-    resultat=numero;
-
-    for(i=1; i<numero; i++){
-        resultat=resultat*i;
+    if (numero==1){
+        return 1;
+    }
+    else{
+      resultat=numero*factorial(numero-1);
+      return resultat;
     }
 
-    return resultat;
+
 }
 
 
