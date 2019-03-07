@@ -10,20 +10,21 @@
  */
 int factorial (int numero){
 
-    int i, resultat;
 
-    resultat=numero;
-
-    for(i=1; i<numero; i++){
-        resultat=resultat*i;
+    if (numero==1){
+        return 1;
     }
 
-    return resultat;
+      printf("\n%i", numero);
+      return (numero*factorial(numero-1));
+
+
 }
 
 
 int main()
 {   //comentaire
+    //commentaire 2
     int numero=0, resultat=0;
     printf("Entrez un numero\n");
     scanf("%i", &numero);
