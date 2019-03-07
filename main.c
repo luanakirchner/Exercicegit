@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/** \brief compute the factorial of number f
+ *
+ * \param f int an integer
+ * \param
+ * \return in the result of the factorial
+ *
+ */
 int factorial (int numero){
 
     int i, resultat;
