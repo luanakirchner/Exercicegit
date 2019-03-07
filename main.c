@@ -16,7 +16,7 @@ int factorial (int numero){
 
 
 int main()
-{
+{   //comentaire
     int numero=0, resultat=0;
     printf("Entrez un numero\n");
     scanf("%i", &numero);
